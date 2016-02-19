@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CCDC0811C76E1700091B8DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCDC0801C76E1700091B8DF /* main.m */; };
+		4CCDC0841C76E1700091B8DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCDC0831C76E1700091B8DF /* AppDelegate.m */; };
+		4CCDC0871C76E1700091B8DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCDC0861C76E1700091B8DF /* ViewController.m */; };
+		4CCDC08A1C76E1700091B8DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCDC0881C76E1700091B8DF /* Main.storyboard */; };
+		4CCDC08C1C76E1700091B8DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCDC08B1C76E1700091B8DF /* Assets.xcassets */; };
+		4CCDC08F1C76E1700091B8DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCDC08D1C76E1700091B8DF /* LaunchScreen.storyboard */; };
+		4CCDC09A1C76E1700091B8DF /* SpotAppraisalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCDC0991C76E1700091B8DF /* SpotAppraisalTests.m */; };
+		4CCDC0A51C76E1700091B8DF /* SpotAppraisalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCDC0A41C76E1700091B8DF /* SpotAppraisalUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CCDC0961C76E1700091B8DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CCDC0741C76E1700091B8DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CCDC07B1C76E1700091B8DF;
+			remoteInfo = SpotAppraisal;
+		};
+		4CCDC0A11C76E1700091B8DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CCDC0741C76E1700091B8DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CCDC07B1C76E1700091B8DF;
+			remoteInfo = SpotAppraisal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CCDC07C1C76E1700091B8DF /* SpotAppraisal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotAppraisal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCDC0801C76E1700091B8DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CCDC0821C76E1700091B8DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CCDC0831C76E1700091B8DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CCDC0851C76E1700091B8DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CCDC0861C76E1700091B8DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CCDC0891C76E1700091B8DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CCDC08B1C76E1700091B8DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CCDC08E1C76E1700091B8DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CCDC0901C76E1700091B8DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCDC0951C76E1700091B8DF /* SpotAppraisalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotAppraisalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCDC0991C76E1700091B8DF /* SpotAppraisalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotAppraisalTests.m; sourceTree = "<group>"; };
+		4CCDC09B1C76E1700091B8DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCDC0A01C76E1700091B8DF /* SpotAppraisalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotAppraisalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCDC0A41C76E1700091B8DF /* SpotAppraisalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotAppraisalUITests.m; sourceTree = "<group>"; };
+		4CCDC0A61C76E1700091B8DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CCDC0791C76E1700091B8DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCDC0921C76E1700091B8DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCDC09D1C76E1700091B8DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CCDC0731C76E1700091B8DF = {
+			isa = PBXGroup;
+			children = (
+				4CCDC07E1C76E1700091B8DF /* SpotAppraisal */,
+				4CCDC0981C76E1700091B8DF /* SpotAppraisalTests */,
+				4CCDC0A31C76E1700091B8DF /* SpotAppraisalUITests */,
+				4CCDC07D1C76E1700091B8DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CCDC07D1C76E1700091B8DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CCDC07C1C76E1700091B8DF /* SpotAppraisal.app */,
+				4CCDC0951C76E1700091B8DF /* SpotAppraisalTests.xctest */,
+				4CCDC0A01C76E1700091B8DF /* SpotAppraisalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CCDC07E1C76E1700091B8DF /* SpotAppraisal */ = {
+			isa = PBXGroup;
+			children = (
+				4CCDC0821C76E1700091B8DF /* AppDelegate.h */,
+				4CCDC0831C76E1700091B8DF /* AppDelegate.m */,
+				4CCDC0851C76E1700091B8DF /* ViewController.h */,
+				4CCDC0861C76E1700091B8DF /* ViewController.m */,
+				4CCDC0881C76E1700091B8DF /* Main.storyboard */,
+				4CCDC08B1C76E1700091B8DF /* Assets.xcassets */,
+				4CCDC08D1C76E1700091B8DF /* LaunchScreen.storyboard */,
+				4CCDC0901C76E1700091B8DF /* Info.plist */,
+				4CCDC07F1C76E1700091B8DF /* Supporting Files */,
+			);
+			path = SpotAppraisal;
+			sourceTree = "<group>";
+		};
+		4CCDC07F1C76E1700091B8DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CCDC0801C76E1700091B8DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CCDC0981C76E1700091B8DF /* SpotAppraisalTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CCDC0991C76E1700091B8DF /* SpotAppraisalTests.m */,
+				4CCDC09B1C76E1700091B8DF /* Info.plist */,
+			);
+			path = SpotAppraisalTests;
+			sourceTree = "<group>";
+		};
+		4CCDC0A31C76E1700091B8DF /* SpotAppraisalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CCDC0A41C76E1700091B8DF /* SpotAppraisalUITests.m */,
+				4CCDC0A61C76E1700091B8DF /* Info.plist */,
+			);
+			path = SpotAppraisalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CCDC07B1C76E1700091B8DF /* SpotAppraisal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCDC0A91C76E1700091B8DF /* Build configuration list for PBXNativeTarget "SpotAppraisal" */;
+			buildPhases = (
+				4CCDC0781C76E1700091B8DF /* Sources */,
+				4CCDC0791C76E1700091B8DF /* Frameworks */,
+				4CCDC07A1C76E1700091B8DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotAppraisal;
+			productName = SpotAppraisal;
+			productReference = 4CCDC07C1C76E1700091B8DF /* SpotAppraisal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CCDC0941C76E1700091B8DF /* SpotAppraisalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCDC0AC1C76E1700091B8DF /* Build configuration list for PBXNativeTarget "SpotAppraisalTests" */;
+			buildPhases = (
+				4CCDC0911C76E1700091B8DF /* Sources */,
+				4CCDC0921C76E1700091B8DF /* Frameworks */,
+				4CCDC0931C76E1700091B8DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CCDC0971C76E1700091B8DF /* PBXTargetDependency */,
+			);
+			name = SpotAppraisalTests;
+			productName = SpotAppraisalTests;
+			productReference = 4CCDC0951C76E1700091B8DF /* SpotAppraisalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CCDC09F1C76E1700091B8DF /* SpotAppraisalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCDC0AF1C76E1700091B8DF /* Build configuration list for PBXNativeTarget "SpotAppraisalUITests" */;
+			buildPhases = (
+				4CCDC09C1C76E1700091B8DF /* Sources */,
+				4CCDC09D1C76E1700091B8DF /* Frameworks */,
+				4CCDC09E1C76E1700091B8DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CCDC0A21C76E1700091B8DF /* PBXTargetDependency */,
+			);
+			name = SpotAppraisalUITests;
+			productName = SpotAppraisalUITests;
+			productReference = 4CCDC0A01C76E1700091B8DF /* SpotAppraisalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CCDC0741C76E1700091B8DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SpotAppraisal;
+				TargetAttributes = {
+					4CCDC07B1C76E1700091B8DF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4CCDC0941C76E1700091B8DF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4CCDC07B1C76E1700091B8DF;
+					};
+					4CCDC09F1C76E1700091B8DF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4CCDC07B1C76E1700091B8DF;
+					};
+				};
+			};
+			buildConfigurationList = 4CCDC0771C76E1700091B8DF /* Build configuration list for PBXProject "SpotAppraisal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CCDC0731C76E1700091B8DF;
+			productRefGroup = 4CCDC07D1C76E1700091B8DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CCDC07B1C76E1700091B8DF /* SpotAppraisal */,
+				4CCDC0941C76E1700091B8DF /* SpotAppraisalTests */,
+				4CCDC09F1C76E1700091B8DF /* SpotAppraisalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CCDC07A1C76E1700091B8DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCDC08F1C76E1700091B8DF /* LaunchScreen.storyboard in Resources */,
+				4CCDC08C1C76E1700091B8DF /* Assets.xcassets in Resources */,
+				4CCDC08A1C76E1700091B8DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCDC0931C76E1700091B8DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCDC09E1C76E1700091B8DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CCDC0781C76E1700091B8DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCDC0871C76E1700091B8DF /* ViewController.m in Sources */,
+				4CCDC0841C76E1700091B8DF /* AppDelegate.m in Sources */,
+				4CCDC0811C76E1700091B8DF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCDC0911C76E1700091B8DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCDC09A1C76E1700091B8DF /* SpotAppraisalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCDC09C1C76E1700091B8DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCDC0A51C76E1700091B8DF /* SpotAppraisalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CCDC0971C76E1700091B8DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CCDC07B1C76E1700091B8DF /* SpotAppraisal */;
+			targetProxy = 4CCDC0961C76E1700091B8DF /* PBXContainerItemProxy */;
+		};
+		4CCDC0A21C76E1700091B8DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CCDC07B1C76E1700091B8DF /* SpotAppraisal */;
+			targetProxy = 4CCDC0A11C76E1700091B8DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CCDC0881C76E1700091B8DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CCDC0891C76E1700091B8DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CCDC08D1C76E1700091B8DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CCDC08E1C76E1700091B8DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CCDC0A71C76E1700091B8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CCDC0A81C76E1700091B8DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CCDC0AA1C76E1700091B8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpotAppraisal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpotAppraisal.SpotAppraisal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CCDC0AB1C76E1700091B8DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpotAppraisal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpotAppraisal.SpotAppraisal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CCDC0AD1C76E1700091B8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpotAppraisalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpotAppraisal.SpotAppraisalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotAppraisal.app/SpotAppraisal";
+			};
+			name = Debug;
+		};
+		4CCDC0AE1C76E1700091B8DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpotAppraisalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpotAppraisal.SpotAppraisalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotAppraisal.app/SpotAppraisal";
+			};
+			name = Release;
+		};
+		4CCDC0B01C76E1700091B8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpotAppraisalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpotAppraisal.SpotAppraisalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpotAppraisal;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4CCDC0B11C76E1700091B8DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpotAppraisalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpotAppraisal.SpotAppraisalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpotAppraisal;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CCDC0771C76E1700091B8DF /* Build configuration list for PBXProject "SpotAppraisal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCDC0A71C76E1700091B8DF /* Debug */,
+				4CCDC0A81C76E1700091B8DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCDC0A91C76E1700091B8DF /* Build configuration list for PBXNativeTarget "SpotAppraisal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCDC0AA1C76E1700091B8DF /* Debug */,
+				4CCDC0AB1C76E1700091B8DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CCDC0AC1C76E1700091B8DF /* Build configuration list for PBXNativeTarget "SpotAppraisalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCDC0AD1C76E1700091B8DF /* Debug */,
+				4CCDC0AE1C76E1700091B8DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CCDC0AF1C76E1700091B8DF /* Build configuration list for PBXNativeTarget "SpotAppraisalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCDC0B01C76E1700091B8DF /* Debug */,
+				4CCDC0B11C76E1700091B8DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CCDC0741C76E1700091B8DF /* Project object */;
+}
